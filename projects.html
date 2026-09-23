@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | Resume</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Source+Sans+3:wght@400;600&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Ayoub Yassine</h1>
+        <p>My Online Resume</p>
+    </header>
+
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="employment.html">Employment</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="references.html">References</a></li>
+                <li><a href="documents.html">Documents</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav><main>
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    The Effect of Societal Beauty Standards on Gen-Z Mental Health —
+                    <a href="documents/321%20final%20report%20.pdf">Open Research Paper here</a>
+                </li>
+            </ul>
+
+            <hr>
+
+            <h2>JavaScript Calculator</h2>
+            <div class="calculator">
+
+                <label for="first-input">First Number:</label>
+                <input type="text" id="first-input">
+
+                <label for="second-input">Second Number:</label>
+                <input type="text" id="second-input">
+
+                <div class="calc-buttons">
+                    <button onclick="addition()">+</button>
+                    <button onclick="subtraction()">-</button>
+                    <button onclick="multiplication()">*</button>
+                    <button onclick="division()">/</button>
+                    <button onclick="power()">**</button>
+                    <button onclick="clearCalculator()">Clear</button>
+                </div>
+
+                <h3 id="output"></h3>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>All Rights Reserved by Ayoub Yassine <a href="credits.html">Credits</a> &#169;</p>
+    </footer>
+    <script src="calculator.js"></script>
+</body>
+</html>
